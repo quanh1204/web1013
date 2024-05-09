@@ -1,0 +1,60 @@
+body {
+  zoom: 200%;
+}
+.banner {
+  float: left;
+}
+p {
+  text-align: left;
+  font-size: 17px;
+}
+h3 {
+  padding-bottom: 5px;
+  margin: 0;
+  font-size: 35px;
+}
+h3 > a {
+  font-size: 2.2rem;
+  color: #192041;
+  text-decoration: none;
+}
+#header_lab2 {
+  text-align: center;
+}
+.image_4 > img {
+  width: 110px;
+  height: 150px;
+}
+.date {
+  font-size: 1.6rem;
+  color: #909498;
+  font-weight: 500;
+}
+
+.image_4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.item-main {
+  border-bottom: 1px solid #909498;
+  padding: 40px 0;
+  display: flex;
+  flex-flow: row wrap;
+  zoom: 50%;
+}
+item-main .thumnail {
+  position: relative;
+  width: 40%;
+}
+.item-main__text {
+  flex: 1;
+  margin-left: 20px;
+}
+.item-main__text > p {
+  margin: 0;
+}
+#text_bai3 {
+  font-size: 25px;
+}
