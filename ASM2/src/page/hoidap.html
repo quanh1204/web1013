@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT An Dương</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <style>
+    .qa-container {
+      background-color: #f2f2f2;
+
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      width: auto;
+    }
+    .qa-container h1 {
+      color: #d9534f;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .qa-container p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .qa-item {
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .qa-item:last-child {
+      margin-bottom: 0;
+    }
+    .qa-item h2 {
+      font-size: 16px;
+      color: #333;
+      font-weight: bolder;
+      margin: 0;
+    }
+    .qa-item p {
+      font-size: 12px;
+      color: #777;
+      margin: 0;
+    }
+    .qa-item .arrow {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+  <body>
+    <div class="banner">
+      <img src="/src/img/banner.png" alt="" width="100%" />
+    </div>
+    <nav class="menu">
+      <img src="/src/img/logo.jpg" alt="" />
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        </li>
+        <li>
+          <a href="./gioithieu.html"
+            ><i class="fa-solid fa-circle-info"></i>Giới thiệu</a
+          >
+        </li>
+        <li>
+          <a href="./thongbao.html"
+            ><i class="fa-regular fa-calendar"></i> Thông báo</a
+          >
+        </li>
+        <li>
+          <a href="./tainguyen.html"
+            ><i class="fa-solid fa-phone"></i> Tài nguyên</a
+          >
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </li>
+        <li class="dropdown">
+          <a href=""><i class="fa-solid fa-plus"></i> Thêm</a>
+          <div class="dropdown-content">
+            <a href="./">Hỏi đáp</a>
+            <a href="./gopy.html">Góp ý</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="gioithieu" style="margin: 20px 25%">
+        <div class="qa-container">
+          <h1>Hỏi đáp</h1>
+          <p>
+            Đây là hỏi đáp của học sinh với nhà trường. Nhà trường sẽ không thu
+            thập thông tin của học sinh.
+          </p>
+          <div class="qa-item">
+            <div>
+              <h2>Câu hỏi thứ 1</h2>
+              <p>Nội dung câu hỏi....</p>
+            </div>
+            <div class="arrow">&rarr;</div>
+          </div>
+          <div class="qa-item">
+            <div>
+              <h2>Câu hỏi thứ 2</h2>
+              <p>Nội dung câu hỏi....</p>
+            </div>
+            <div class="arrow">&rarr;</div>
+          </div>
+          <div class="qa-item">
+            <div>
+              <h2>Câu hỏi thứ 3</h2>
+              <p>Nội dung câu hỏi....</p>
+            </div>
+            <div class="arrow">&rarr;</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img src="/src/img/logo.jpg" alt="" />
+        <div>
+          <h3 class="title">THPT An Dương</h3>
+          <p class="title">
+            Địa chỉ
+            <span class="text">
+              Ngõ 1, tổ 1, thị trấn An Dương, huyện An Dương, thành phố Hải
+              Phòng
+            </span>
+          </p>
+          <p class="title">
+            Điện thoại:
+            <span class="text"
+              ><a href="tel:/0225 3770152">0225 3770152</a></span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

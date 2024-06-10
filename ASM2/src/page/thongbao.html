@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT An Dương</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <style>
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .content {
+      display: flex;
+      align-items: center;
+    }
+    .text {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .text h1 {
+      font-size: 24px;
+      color: #ff6600;
+    }
+    .text p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #ff6600;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .image {
+      flex: 1;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .news-container {
+      display: flex;
+      gap: 20px;
+    }
+    .news-block {
+      margin-top: 20px;
+      width: 50%;
+    }
+    .news-block img {
+      width: 100%;
+    }
+    .news-block h3 {
+      font-size: 1.2em;
+      color: #333;
+    }
+    .news-block p {
+      font-size: 1em;
+      color: #555;
+    }
+    .news-block a {
+      display: block;
+      margin-top: 10px;
+      color: #ff6600;
+      text-decoration: none;
+    }
+    .news-block a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <div class="banner">
+      <img src="/src/img/banner.png" alt="" width="100%" />
+    </div>
+    <nav class="menu">
+      <img src="/src/img/logo.jpg" alt="" />
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        </li>
+        <li>
+          <a href="./gioithieu.html"
+            ><i class="fa-solid fa-circle-info"></i>Giới thiệu</a
+          >
+        </li>
+        <li>
+          <a href="./thongbao.html"
+            ><i class="fa-regular fa-calendar"></i> Thông báo</a
+          >
+        </li>
+        <li>
+          <a href="./tainguyen.html"
+            ><i class="fa-solid fa-phone"></i> Tài nguyên</a
+          >
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </li>
+        <li class="dropdown">
+          <a href=""><i class="fa-solid fa-plus"></i> Thêm</a>
+          <div class="dropdown-content">
+            <a href="./hoidap.html">Hỏi đáp</a>
+            <a href="./gopy.html">Góp ý</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="gioithieu" style="margin: 20px 25%">
+        <div>
+          <div class="container">
+            <div class="content">
+              <div class="text">
+                <h1>
+                  [Cơ sở Hải Phòng] Sinh viên Phổ thông Cao đẳng - FPT
+                  Polytechnic đạt giải tại kỳ thi Toán học Quốc tế PhIMO 2024
+                </h1>
+                <p>
+                  Vừa qua, 6 sinh viên của Phổ thông Cao đẳng - FPT Polytechnic
+                  đã đạt giải cao trong kỳ thi Toán học Quốc tế PhIMO 2024 -
+                  Vòng thi Quốc gia. Thành tích này không chỉ là kết quả của ...
+                </p>
+                <a href="#" class="button">Xem Thêm</a>
+              </div>
+              <div class="image">
+                <img
+                  src="https://phothongcaodang.fpt.edu.vn/wp-content/uploads/z5490067425477_d8e4d2dd345254ce1a6759dfabbca82e-770x500.jpg"
+                  alt="PhIMO 2024"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news-container">
+          <div class="news-block">
+            <img
+              src="https://phothongcaodang.fpt.edu.vn/wp-content/uploads/z5522029959495_63eaeab56150f59b193b3d0efb672977-770x500.jpg"
+              alt="FPT Laptop Offer"
+            />
+            <h3>
+              Ưu đãi “khủng” dành cho tân sinh viên Phổ thông Cao đẳng - FPT
+              Polytechnic
+            </h3>
+            <p>
+              Tân sinh viên nhập học Phổ thông Cao đẳng - FPT Polytechnic trong
+              năm 2024 nhận ngay ưu đãi đặc biệt của FPT Shop với phiếu mua hàng
+              trị giá 2 triệu đồng hoặc hoàn tiền lên đến 5%.
+            </p>
+            <a href="#">Xem Thêm</a>
+          </div>
+          <div class="news-block">
+            <img
+              src="https://phothongcaodang.fpt.edu.vn/wp-content/uploads/image-143-770x500.jpeg"
+              alt="Nguyễn Hà Anh"
+            />
+            <h3>
+              Tuổi 16 của nữ sinh Phổ thông Cao đẳng - FPT Polytechnic có gì?
+            </h3>
+            <p>
+              Không chỉ hoàn thành tốt việc học, chính sự xông pha của nữ sinh
+              Phổ thông Cao đẳng - FPT Polytechnic Nguyễn Hà Anh đã giúp cô bạn
+              ghi dấu ấn với bạn bè đồng trang lứa bởi sự tư...
+            </p>
+            <a href="#">Xem Thêm</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img src="/src/img/logo.jpg" alt="" />
+        <div>
+          <h3 class="title">THPT An Dương</h3>
+          <p class="title">
+            Địa chỉ
+            <span class="text">
+              Ngõ 1, tổ 1, thị trấn An Dương, huyện An Dương, thành phố Hải
+              Phòng
+            </span>
+          </p>
+          <p class="title">
+            Điện thoại:
+            <span class="text"
+              ><a href="tel:/0225 3770152">0225 3770152</a></span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

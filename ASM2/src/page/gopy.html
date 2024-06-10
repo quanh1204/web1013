@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT An Dương</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <style>
+    .feedback-container {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            width: auto;
+        }
+        .feedback-container h1 {
+            color: #d9534f;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .feedback-container p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .feedback-container textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        .feedback-container button {
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .feedback-container button:hover {
+            background-color: #c9302c;
+        }
+  </style>
+  <body>
+    <div class="banner">
+      <img src="/src/img/banner.png" alt="" width="100%" />
+    </div>
+    <nav class="menu">
+      <img src="/src/img/logo.jpg" alt="" />
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        </li>
+        <li>
+          <a href="./gioithieu.html"
+            ><i class="fa-solid fa-circle-info"></i>Giới thiệu</a
+          >
+        </li>
+        <li>
+          <a href="./thongbao.html"
+            ><i class="fa-regular fa-calendar"></i> Thông báo</a
+          >
+        </li>
+        <li>
+          <a href="./tainguyen.html"
+            ><i class="fa-solid fa-phone"></i> Tài nguyên</a
+          >
+        </li>
+        <li>
+          <a href=""><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </li>
+        <li class="dropdown">
+          <a href=""><i class="fa-solid fa-plus"></i> Thêm</a>
+          <div class="dropdown-content">
+            <a href="./hoidap.html">Hỏi đáp</a>
+            <a href="./gopy.html">Góp ý</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="gioithieu" style="margin: 20px 25%">
+        <div>
+            <div class="feedback-container">
+                <h1>Góp ý</h1>
+                <p>Đây là góp ý của học sinh với nhà trường. Nhà trường sẽ không thu thập thông tin của học sinh.</p>
+                <textarea placeholder="Nhập lời góp ý tại đây"></textarea>
+                <br>
+                <button>Nhận xét</button>
+            </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img src="/src/img/logo.jpg" alt="" />
+        <div>
+          <h3 class="title">THPT An Dương</h3>
+          <p class="title">
+            Địa chỉ
+            <span class="text">
+              Ngõ 1, tổ 1, thị trấn An Dương, huyện An Dương, thành phố Hải
+              Phòng
+            </span>
+          </p>
+          <p class="title">
+            Điện thoại:
+            <span class="text"
+              ><a href="tel:/0225 3770152">0225 3770152</a></span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

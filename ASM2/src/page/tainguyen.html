@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT An Dương</title>
+    <link rel="stylesheet" href="/src/css/index.css" />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <style>
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .content {
+      display: flex;
+      align-items: center;
+    }
+    .text {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .text h1 {
+      font-size: 24px;
+      color: #ff6600;
+    }
+    .text p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #ff6600;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .image {
+      flex: 1;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .news-container {
+      display: flex;
+      gap: 20px;
+    }
+    .news-block {
+      margin-top: 20px;
+      
+    }
+    .news-block img {
+      width: 100%;
+    }
+    .news-block h3 {
+      font-size: 2rem;
+      color: #333;
+      font-weight: bold;
+    }
+    .news-block p {
+      font-size: 1em;
+      color: #555;
+      margin: 3px;
+    }
+    .news-block a {
+      display: block;
+      margin-top: 10px;
+      color: #ff6600;
+      text-decoration: none;
+    }
+    .news-block a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <div class="banner">
+      <img src="/src/img/banner.png" alt="" width="100%" />
+    </div>
+    <nav class="menu">
+      <img src="/src/img/logo.jpg" alt="" />
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-house"></i>Trang chủ</a>
+        </li>
+        <li>
+          <a href="./gioithieu.html"
+            ><i class="fa-solid fa-circle-info"></i>Giới thiệu</a
+          >
+        </li>
+        <li>
+          <a href="./thongbao.html"
+            ><i class="fa-regular fa-calendar"></i> Thông báo</a
+          >
+        </li>
+        <li>
+          <a href="./tainguyen.html"
+            ><i class="fa-solid fa-phone"></i> Tài nguyên</a
+          >
+        </li>
+        <li>
+          <a href="./lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </li>
+        <li class="dropdown">
+          <a href=""><i class="fa-solid fa-plus"></i> Thêm</a>
+          <div class="dropdown-content">
+            <a href="./hoidap.html">Hỏi đáp</a>
+            <a href="./gopy.html">Góp ý</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="gioithieu" style="margin: 20px 25%">
+        <div>
+        
+        <div class="news-container">
+          <div class="news-block">
+            <img
+              src="https://848603edf5.vws.vegacdn.vn/UploadImages/haiphong/thptanduong/2023_4/12/untitled_12420239.png?w=800"
+              alt="FPT Laptop Offer"
+            />
+            <h3>
+                Sản phẩm STEM: Ứng dụng của than hoạt tính trong đời sống. Tác
+                giả: cô giáo Nguyễn Thị Thu Hằng
+              </h1>
+            </h3>
+            <p>
+                12/4/2023|  
+                Tài nguyên
+            </p>
+            <div style="float: left; display: flex;">
+                <a href="#" class="button" style="color: white; margin-right: 20px;"
+                ><i class="fa-solid fa-download"></i>Link tải 1</a
+              >
+              <a href="#" class="button" style="color: white"
+                ><i class="fa-solid fa-download"></i>Link tải 2</a
+              ></div>
+            
+          </div>
+         
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img src="/src/img/logo.jpg" alt="" />
+        <div>
+          <h3 class="title">THPT An Dương</h3>
+          <p class="title">
+            Địa chỉ
+            <span class="text">
+              Ngõ 1, tổ 1, thị trấn An Dương, huyện An Dương, thành phố Hải
+              Phòng
+            </span>
+          </p>
+          <p class="title">
+            Điện thoại:
+            <span class="text"
+              ><a href="tel:/0225 3770152">0225 3770152</a></span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
